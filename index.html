@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Francielli Rodrigues" />
+    <meta
+      name="description"
+      content="Portfólio da desenvolvedora front-end Francielli Rodrigues"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, html, front-end, desenvolvimento, css, javascript"
+    />
+    <title>Francielli Rodirgues</title>
+    <link rel="icon" href="./icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav data-menu="suave">
+        <p><a href="#home">&lsaquo;FR/&rsaquo;</a></p>
+        <button data-menu="button" aria-controls="menu"></button>
+        <ul data-menu="list" id="menu">
+          <a href="#home">
+            <li>Home</li>
+          </a>
+          <a href="#projetos">
+            <li>Projetos</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="principal" id="home">
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+          <span class="principal__sentence"></span>
+          <span class="principal__input-cursor"></span>
+          <h1>Desenvolvedora Front-End</h1>
+          <div class="principal__botao">
+            <a
+              href="https://www.linkedin.com/in/franciellirodrigues/"
+              target="_blank"
+            >
+              <div class="principal__botao-linkedin">
+                <img src="./assets/linkedin.png" alt="" />
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/Franciellirodrigues" target="_blank">
+              <div class="principal__botao-github">
+                <img src="./assets/github.png" alt="" />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="principal__right">
+          <img
+            src="./assets/code.svg"
+            alt="Ilustração representando uma desenvolvedora sentada na cadeira mexendo no notebook com ambiente em volta."
+            data-tilt
+          />
+        </div>
+
+        <div class="scroll" data-menu="suave">
+          <a href="#sobre">
+            <p>scroll down</p>
+            <img
+              src="./assets/scroll.png"
+              alt="Setinha indicando para rolar a tela para baixo"
+          /></a>
+        </div>
+      </section>
+
+      <section class="projetos" id="projetos">
+        <h1>Projetos</h1>
+        <div class="projetos__wrapper">
+          <section class="projetos__card">
+            <a href="hhttps://doctorcaree.netlify.app/" target="_blank">
+              <img src="./assets/projeto1.PNG" alt="" class="projeto-img" />
+            </a>
+            <h2>DoctorCare</h2>
+            <p>
+              O DoctorCare é uma aplicação web, onde é possível conhecer mais
+              sobre a clinica e agendar consulta pelo whatsapp.
+            </p>
+            <span
+              >Tecnologias usadas no projeto: HTML, CSS, JavaScript
+              Vanilla.</span
+            >
+            <a href="https://doctorcaree.netlify.app/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://origiinsix.netlify.app/" target="_blank">
+              <img src="./assets/projeto2.PNG" alt="" class="projeto-img" />
+            </a>
+            <h2>OriginSix</h2>
+            <p>
+              O OriginSix é uma plataforma para divulgação de comercios. O
+              OriginSix foi desenvolvido com o intuito de divulgar os
+              estabelecimentos e os serviços que prestam.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JavaScript.</span>
+            <a href="https://origiinsix.netlify.app/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a
+              href="https://franciellirodrigues.github.io/SPIDERMAN/"
+              target="_blank"
+            >
+              <img src="./assets/projeto3.PNG" alt="" class="projeto-img" />
+            </a>
+            <h2>SpiderMan</h2>
+            <p>Projeto realizado para a divulgação do filme Homem Aranha.</p>
+            <span
+              >Tecnologias usadas no projeto: HTML, SCSS, JavaScript e UI/UX
+              Designer desenhando todo o layout no figma.</span
+            >
+            <a
+              href="https://franciellirodrigues.github.io/SPIDERMAN/"
+              target="_blank"
+            >
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a
+              href="https://franciellirodrigues.github.io/FOCUSTIMER-POMODORO/"
+              target="_blank"
+            >
+              <img src="./assets/projeto4.PNG" alt="" class="projeto-img" />
+            </a>
+            <h2>FocusTimer</h2>
+            <p>
+              FocusTimer é cronômetro para dividir o trabalho em períodos de 25
+              minutos, separados por breves intervalos.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, e JavaScript</span>
+            <a
+              href="https://franciellirodrigues.github.io/FOCUSTIMER-POMODORO/"
+              target="_blank"
+            >
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://seu-peso.netlify.app/" target="_blank">
+              <img src="./assets/projeto5.PNG" alt="" class="projeto-img" />
+            </a>
+            <h2>SeuPeso</h2>
+            <p>
+              Projeto desenvolvido para calcular o IMC que serve para avaliar o
+              grau de sobrepeso e obesidade. É calculado dividindo o peso (em
+              kg) pela altura ao quadrado (em metros).
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, e JavaScript</span>
+            <a href="https://seu-peso.netlify.app/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a
+              href="https://github.com/Franciellirodrigues/FIND-YOUR-DUO"
+              target="_blank"
+            >
+              <img src="./assets/projeto6.png" alt="" class="projeto-img" />
+            </a>
+            <h2>Find your Duo</h2>
+            <p>
+              O projeto Find your Duo é uma plataforma para encontrar um
+              parceiro de jogo e podendo conectar-se ao discord.
+            </p>
+            <span
+              >Tecnologias usadas no projeto: Node.js, Prisma, ReactJS, React
+              Native, Expo, TypeScript.</span
+            >
+            <a
+              href="https://github.com/Franciellirodrigues/FIND-YOUR-DUO"
+              target="_blank"
+            >
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a
+              href="https://franciellirodrigues.github.io/GIT-FAVORITES/"
+              target="_blank"
+            >
+              <img src="./assets/projeto7.PNG" alt="" class="projeto-img" />
+            </a>
+            <h2>GitFav</h2>
+            <p>
+              Projeto desenvolvido para adicionar os githubs favoritos em sua
+              lista.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, e JavaScript</span>
+            <a
+              href="https://franciellirodrigues.github.io/GIT-FAVORITES/"
+              target="_blank"
+            >
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a
+              href="https://github.com/Franciellirodrigues/HAPPY"
+              target="_blank"
+            >
+              <img src="./assets/projeto8.PNG" alt="" class="projeto-img" />
+            </a>
+            <h2>HAPPY</h2>
+            <p>
+              O Happy é uma aplicação que conecta pessoas à casas de acolhimento
+              institucional.
+            </p>
+            <span
+              >Tecnologias usadas no projeto: Node.js, React, React Native,
+              Expo, TypeScript</span
+            >
+            <a
+              href="https://github.com/Franciellirodrigues/HAPPY"
+              target="_blank"
+            >
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="" />
+                Visualizar
+              </div>
+            </a>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Desenvolvido com muito
+        <img src="./assets/heart.png" alt="Ícone de coração" /> por
+      </p>
+      <a href="https://www.linkedin.com/in/franciellirodrigues/" target="_blank"
+        ><span>Francielli Rodrigues</span></a
+      >
+    </footer>
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/modules/vanilla-tilt.min.js"></script>
+  </body>
+</html>
